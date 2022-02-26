@@ -12,7 +12,7 @@ message Account {
     int32 id = 1;
     string name = 2;
     string customer_number = 3;
-    string branch_id = 4;
+    int32 branch_id = 4;
     int32 product_id = 5;
     float balance = 6;
 }
